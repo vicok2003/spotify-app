@@ -1,17 +1,17 @@
 import { Routes, Route } from "react-router-dom";
-import Dashboard from "./Dashboard";
-import SignIn from "./SignIn";
-import SpotifyArtists from "./SpotifyArtists";
+import Dashboard from "../pages/Dashboard";
+import SignIn from "../pages/SignIn";
+import Spotifyartists from "../Spotifyartists";
 
 const AppRoutes = () => {
   return (
-    <>
+    <div>
       <Routes>
         <Route path="/signin" element={<SignIn />} />
         <Route path="/" element={<Dashboard />} />
       </Routes>
-      <SpotifyArtists />
-    </>
+      <Spotifyartists />
+    </div>
   );
 };
 
