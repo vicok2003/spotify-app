@@ -20,7 +20,14 @@
   padding: 6px;
 }
 
+.sidebarOption__icon{
+  padding: 0px 10px;
+}
 
+.sidebarOption__icon{
+  width: 45px;
+  height: 45px;
+}
 
 .SidebarOption > p{
   margin-top: 10px;
