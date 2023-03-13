@@ -1,4 +1,4 @@
-*{
+/* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -36,35 +36,7 @@ body{
     cursor: pointer;
   }
 
-.signin-div{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 12px;
-  border: 1px solid gray;
-  }
 
-.signin-text{
-  text-transform: uppercase;
-  background-color: rgb(30, 109, 30);
-  color: var(--sidebar-color);
-  padding: 12px;
-  border-radius: 6px;
-  border: none;
-  cursor: pointer;
-}
-
-.signin-text a{
-  text-decoration: none;
-  color: var(--sidebar-color);
-}
-
-.sign-in-header{
-  text-transform: uppercase;
-  padding: 20px;
-}
 
 .sidebar{
   width: 20%;
@@ -112,7 +84,6 @@ margin-bottom: 12px;
 }
 
 
-/* Right sidebar */
 .rth-sidebar{
   right: 0;
   top: 0;
@@ -226,10 +197,6 @@ tr:hover{
   cursor: pointer;
 }
 
-/* tbody tr:nth-child(even){
-  background-color: #f2f2f2;
-} */
-
 
 
 .rth-label{
@@ -311,4 +278,4 @@ margin-bottom: 12px;
 
 
 
-
+ */

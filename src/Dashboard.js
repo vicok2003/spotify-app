@@ -1,9 +1,9 @@
 import React from 'react'
-import { useLocation } from 'react-router-dom';
+// import { useLocation } from 'react-router-dom';
 
 function Dashboard() {
-  const location = useLocation();
-  const accessToken = new URLSearchParams(location.search).get('access_token');
+  // const location = useLocation();
+  // const accessToken = new URLSearchParams(location.search).get('access_token');
   
   // Use the accessToken to make requests to the Spotify API
 
@@ -69,7 +69,6 @@ function Dashboard() {
   
       <div className='body-cont'>
         
-        <input type='text' placeholder='Search' className='search-bar'/>
   
         <h5>What's Hot</h5>
         <div className='trending-flex'>
@@ -82,7 +81,6 @@ function Dashboard() {
         <img src="" alt="Trending img"/>
         </div>
        
-        {/* table-div */}
         <div>
           <div className='table-head'>
           <h2>My Playlist</h2>
