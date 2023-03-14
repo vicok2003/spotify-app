@@ -5,6 +5,7 @@ import Header from './Header'
 import {FaPlayCircle} from 'react-icons/fa'
 import {MdFavorite} from 'react-icons/md'
 import {GrMore} from 'react-icons/gr'
+import SongRow from './SongRow'
 
 
 
@@ -31,6 +32,10 @@ function Body({ spotify }) {
           <GrMore />
         </div>
 
+
+        {discover_weekly?.tracks.items.map(item => (
+          <songRow track={item.track} />
+        ))}
       </div>
     </div>
   )
